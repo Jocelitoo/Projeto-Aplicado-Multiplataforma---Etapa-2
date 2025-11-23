@@ -66,7 +66,7 @@ OBS: O projeto não possui a estrutura de pastas frontend e backend separados, p
 
 14. Pré-requisitos:
 
-- Vs code instalado na maquina
+- Vs code, git e node.js instalados na maquina
 - 1 GB de armazenamento livre na maquina
 
 15. Passo a passo para instalação
