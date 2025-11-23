@@ -22,6 +22,7 @@ import Image from "next/image";
 import { createOng } from "@/actions/ongActions";
 import { toast } from "sonner";
 import { useSession } from "next-auth/react";
+import { Textarea } from "./ui/textarea";
 
 export const CreateOngForm = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -140,7 +141,7 @@ export const CreateOngForm = () => {
               <FormItem>
                 <FormLabel>Descrição:</FormLabel>
                 <FormControl>
-                  <Input type="text" {...field} />
+                  <Textarea {...field} />
                 </FormControl>
                 <FormDescription className="sr-only">Descrição</FormDescription>
                 <FormMessage />

@@ -1,0 +1,3 @@
+- Nome: Rosineide Coelho
+- Localização: Rua Joel Emidio, Pajuçara
+- Contexto: Possui o hábito de interagir com ONGS, mas sente dificuldade em encontrar o contato das ONGS e suas necessidades.

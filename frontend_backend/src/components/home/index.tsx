@@ -38,11 +38,11 @@ export const HomeElements = ({ ongs }: HomeElementsProps) => {
       </div>
 
       {filteredOngs.length >= 1 ? (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
           {filteredOngs.map((ong, index) => {
             return (
               <Link key={index} href={`ong/${ong.id}`}>
-                <div className="border rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-2xl">
+                <div className="flex flex-col h-full border rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-2xl">
                   <div className="w-full space-y-2">
                     <div className="aspect-square overflow-hidden relative w-full bg-slate-200">
                       <Image
@@ -54,10 +54,10 @@ export const HomeElements = ({ ongs }: HomeElementsProps) => {
                     </div>
                   </div>
 
-                  <div className="p-4 text-center space-y-2">
+                  <div className="flex flex-col grow justify-between p-4 text-center space-y-2">
                     <p className="font-bold text-xl">{ong.name}</p>
 
-                    <p>{ong.description}</p>
+                    <p className="line-clamp-2">{ong.description}</p>
 
                     <p>{ong.address}</p>
                   </div>

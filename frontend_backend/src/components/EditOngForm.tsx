@@ -23,6 +23,7 @@ import { createOng, editOng } from "@/actions/ongActions";
 import { toast } from "sonner";
 import { useSession } from "next-auth/react";
 import { OngProps } from "@/types/types";
+import { Textarea } from "./ui/textarea";
 
 interface EditOngFormProps {
   ong: OngProps | null;
@@ -146,7 +147,7 @@ export const EditOngForm = ({ ong }: EditOngFormProps) => {
               <FormItem>
                 <FormLabel>Descrição:</FormLabel>
                 <FormControl>
-                  <Input type="text" {...field} />
+                  <Textarea {...field} />
                 </FormControl>
                 <FormDescription className="sr-only">Descrição</FormDescription>
                 <FormMessage />
