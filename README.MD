@@ -93,3 +93,37 @@ NEXT_PUBLIC_BASE_URL = 'http://localhost:3000'
 - Execute o projeto -> npm run dev
 
 - Acesse o projeto rodando na maquina: http://localhost:3000/
+
+16. URL de acesso:
+
+- https://conectaong.vercel.app/
+
+17. Credenciais de teste:
+
+- email: admin@outlook.com / senha: 12345678
+- email teste@outlook.com / senha: 12345678
+
+18. Definição específica do público-alvo
+
+- Proprietários de ONGS que buscam mais visibilidade e voluntários/doadores de ONGS que buscam uma forma simples de ter acesso à informações sobre as ONGS.
+
+19. Resumo do processo de validação
+
+Por meio de uma ligação pelo wpp, foi apresentado o intuito do sistema para a Rosineide. Depois disso, questionamos se ela aceitaria analisar o sistema e retornar com seu feedback e a resposta foi sim. Assim, foi enviado para ela o link do projeto hospedado na Vercel. Após o feedback dela, fizemos algumas alterações no sistema
+
+20. Principais feedbacks recebidos
+
+- O público alvo achou o sistema muito interessante pois em um só lugar era possível ter acesso à informações de várias ongs de maneira fácil e intuitiva. Por conta da lógica do código, ao criar uma ONG, o usuário precisava sair da conta e entrar novamente para o sistema trazer a ONG vinculada a ele. O público alvo não gostou disso e reportou
+
+21. Ajustes implementados
+
+- Os dados da ONG estavam sendo puxados através do nextauth que retornava a ONG do usuário que havia feito o login, porém em caso de edição ou criação o processo de login não era feito, a consequência disso era que o sistema não retornava a ONG criada/atualizada. Então, foi alterado a lógica do código para pegar a ONG vinculada ao usuário diretamente através do prisma quando a página fosse carragada, e não quando o usuário fazia login
+
+22. Integrantes da equipe e seus papéis:
+
+- Italo -> Responsável pela página principal (Home)
+- Daniel -> Responsável pelos formulários de login / registro
+- Neto -> Responsável por configurar o banco de dados com o prisma
+- Jocelito -> Responsável pelas requisições feitas pelo Server Actions
+- Kaio -> Responsável por criar a página que traz informações sobre a ONG e garantir a otimização do site
+- Juliana -> Responsável por verificar a responsividade e corrigir erros
