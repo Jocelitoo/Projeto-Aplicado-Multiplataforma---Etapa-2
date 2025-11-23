@@ -77,7 +77,7 @@ OBS: O projeto não possui a estrutura de pastas frontend e backend separados, p
 
 - Instale as dependências digitando no terminal: -> npm i
 
-- Na raiz do projeto crie o arquivo .env com os dados abaixo:
+- Na raiz da pasta frontend_backend crie o arquivo .env com os dados abaixo:
 
 DATABASE_URL="mongodb+srv://juninhoclimeres_db_user:TI54Nb3NEMnxZ0OP@cluster0.8lt5zpv.mongodb.net/trabalho"
 
