@@ -1,3 +1,5 @@
+OBS: O projeto não possui a estrutura de pastas frontend e backend separados, porque o Next.js une o front e o back em uma só pasta, o que impossibilitou a divisão na estrutura do projeto.
+
 1. Título do projeto:
 
 - ConectaONG
