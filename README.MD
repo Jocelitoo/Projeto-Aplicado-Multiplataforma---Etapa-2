@@ -71,13 +71,13 @@ OBS: O projeto não possui a estrutura de pastas frontend e backend separados, p
 
 15. Passo a passo para instalação
 
-- Abra o vs code e digite no terminal: git clone https://github.com/Jocelitoo/Projeto-Aplicado-Multiplataforma---Etapa-2.git
+- 15.1 Abra o vs code e digite no terminal: git clone https://github.com/Jocelitoo/Projeto-Aplicado-Multiplataforma---Etapa-2.git
 
-- Entre a pasta do projeto digitando no terminal: cd Projeto-Aplicado-Multiplataforma---Etapa-2/frontend_backend
+- 15.2 Entre a pasta do projeto digitando no terminal: cd Projeto-Aplicado-Multiplataforma---Etapa-2/frontend_backend
 
-- Instale as dependências digitando no terminal: -> npm i
+- 15.3 Instale as dependências digitando no terminal: -> npm i
 
-- Na raiz da pasta frontend_backend crie o arquivo .env com os dados abaixo:
+- 15.4 Na raiz da pasta frontend_backend crie o arquivo .env com os dados abaixo:
 
 DATABASE_URL="mongodb+srv://juninhoclimeres_db_user:TI54Nb3NEMnxZ0OP@cluster0.8lt5zpv.mongodb.net/trabalho"
 
@@ -90,11 +90,11 @@ CLOUDINARY_API_SECRET="3Fibmu15z7Oy9xlYVVr-EH_m28E"
 
 NEXT_PUBLIC_BASE_URL = 'http://localhost:3000'
 
-- Inicialize o prisma client -> npx prisma generate
+- 15.5 Inicialize o prisma client -> npx prisma generate
 
-- Execute o projeto -> npm run dev
+- 15.6 Execute o projeto -> npm run dev
 
-- Acesse o projeto rodando na maquina: http://localhost:3000/
+- 15.7 Acesse o projeto rodando na maquina: http://localhost:3000/
 
 16. URL de acesso:
 
@@ -111,7 +111,7 @@ NEXT_PUBLIC_BASE_URL = 'http://localhost:3000'
 
 19. Resumo do processo de validação
 
-Por meio de uma ligação pelo wpp, foi apresentado o intuito do sistema para a Rosineide. Depois disso, questionamos se ela aceitaria analisar o sistema e retornar com seu feedback e a resposta foi sim. Assim, foi enviado para ela o link do projeto hospedado na Vercel. Após o feedback dela, fizemos algumas alterações no sistema
+- Por meio de uma ligação pelo wpp, foi apresentado o intuito do sistema para a Rosineide. Depois disso, questionamos se ela aceitaria analisar o sistema e retornar com seu feedback e a resposta foi sim. Assim, foi enviado para ela o link do projeto hospedado na Vercel. Após o feedback dela, fizemos algumas alterações no sistema
 
 20. Principais feedbacks recebidos
 
